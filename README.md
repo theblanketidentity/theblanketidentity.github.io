@@ -1,3 +1,4 @@
 # theblanketidentity.github.io
-Website for The Blanket Identity.
-Instagram: instagram.com/theblanketidentity
+Website for The Blanket Identity. 
+
+Check out our instagram [here](instagram.com/theblanketidentity).
