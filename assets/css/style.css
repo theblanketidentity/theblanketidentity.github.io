@@ -838,7 +838,7 @@ p {
 @media (max-width: 767px) {
   .showcase-area {
     padding-top: 50px;
-    padding-bottom: 80px; } }
+    padding-bottom: 50px; } }
 
 .showcase-title .title {
   font-size: 35px; }
