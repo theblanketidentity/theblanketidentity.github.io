@@ -36,8 +36,9 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #222121; } /*change all body text to the dark dark blue*/
-
+  color: #222121; /*change all body text to the dark dark blue*/
+  background-color: #f7f0e2; } 
+	
 * {
   margin: 0;
   padding: 0;
