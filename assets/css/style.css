@@ -300,7 +300,7 @@ a.hyperlink {
 ===========================*/
 .header-area {
   padding: 30px 0;
-  background-color: #f7f0e2;
+  background-color: #fff;
   position: absolute;
   top: 0;
   left: 0;
@@ -312,7 +312,7 @@ a.hyperlink {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #f7f0e2; /*sticky header color*/
+    background-color: #fff; /*sticky header color*/
     -webkit-box-shadow: 0px 0px 40px 0px rgba(25, 52, 32, 0.5);
     -moz-box-shadow: 0px 0px 40px 0px rgba(25, 52, 32, 0.5);
     box-shadow: 0px 0px 40px 0px rgba(25, 52, 32, 0.5);
@@ -559,7 +559,7 @@ a.hyperlink {
       content: '';
       width: 70%;
       height: 1px;
-      background-color: #5b3144;
+      background-color: #bf4a22;
       top: 50%;
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
