@@ -642,7 +642,7 @@ p {
     .showcase-active .slick-arrow.prev::before {
       position: absolute;
       content: '';
-      background-color: #f7f0e2;
+      background-color: #f9d59e;
       width: 1px;
       height: 30px;
       top: 50%;
