@@ -36,7 +36,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #777; }
+  color: #222121; } /*change all body text to the dark dark blue*/
 
 * {
   margin: 0;
@@ -114,7 +114,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #777;
+  color: #222121;
   margin: 0px; }
 
 .bg_cover {
@@ -132,7 +132,7 @@ p {
   white-space: nowrap;
   vertical-align: middle;
   @inlude user-select(none);
-  border: 1px solid #fe7865;
+  border: 1px solid #193420;
   padding: 0 35px;
   font-size: 16px;
   line-height: 48px;
@@ -355,7 +355,7 @@ p {
         top: 100%;
         left: 0;
         width: 100%;
-        background-color: #fff;
+        background-color: #f7f0e2;
         z-index: 999;
         padding: 10px; } }
     @media (max-width: 767px) {
@@ -364,7 +364,7 @@ p {
         top: 100%;
         left: 0;
         width: 100%;
-        background-color: #fff;
+        background-color: #f7f0e2;
         z-index: 999;
         padding: 10px; } }
     .header-area .navbar .navbar-nav .nav-item {
@@ -378,7 +378,7 @@ p {
       .header-area .navbar .navbar-nav .nav-item a {
         font-size: 16px;
         font-weight: 600;
-        color: #777;
+        color: #193420;
         -webkit-transition: all 0.4s ease-out 0s;
         -moz-transition: all 0.4s ease-out 0s;
         -ms-transition: all 0.4s ease-out 0s;
@@ -495,7 +495,7 @@ p {
           content: '';
           width: 100%;
           height: 10px;
-          background-color: rgba(228, 151, 29, 0.5);
+          background-color: rgba(191, 74, 34 0.75);
           left: 0;
           bottom: 17px;
           z-index: auto; }
@@ -534,8 +534,8 @@ p {
       margin: 0 5px; }
       .slider-social .social li a {
         font-size: 18px;
-        color: #ddd;
-        border: 1px solid #ddd;
+        color: #e4971d;
+        border: 1px solid #e4971d;
         width: 30px;
         line-height: 32px;
         height: 30px;
@@ -546,14 +546,14 @@ p {
         -o-transition: all 0.4s ease-out 0s;
         transition: all 0.4s ease-out 0s; }
         .slider-social .social li a:hover {
-          color: #fe7865;
-          border-color: #fe7865; }
+          color: #bf4a22;
+          border-color: #bf4a22; }
     .slider-social .social::before {
       position: absolute;
       content: '';
       width: 70%;
       height: 1px;
-      background-color: #fe7865;
+      background-color: #bf4a22;
       top: 50%;
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
@@ -611,7 +611,7 @@ p {
     content: '';
     width: 400px;
     height: 230px;
-    background-color: #fff3f1;
+    background-color: #f9d59e;
     bottom: 0;
     right: -50px;
     bottom: -40px;
@@ -642,7 +642,7 @@ p {
     .showcase-active .slick-arrow.prev::before {
       position: absolute;
       content: '';
-      background-color: #fff;
+      background-color: #f7f0e2;
       width: 1px;
       height: 30px;
       top: 50%;
@@ -655,8 +655,8 @@ p {
   .showcase-active .slick-arrow i {
     width: 70px;
     line-height: 50px;
-    background-color: #fe7865;
-    color: #fff;
+    background-color: #bf4a22; /*button color for going forward and back on our videos*/
+    color: #f7f0e2;
     font-size: 20px;
     text-align: center;
     cursor: pointer; }
@@ -782,12 +782,12 @@ p.form-message.error {
     margin-left: 0; }
   .footer-logo .footer-social li a {
     font-size: 16px;
-    color: #777;
+    color: #222121;
     width: 35px;
     height: 35px;
     line-height: 38px;
     text-align: center;
-    background-color: #fff;
+    background-color: #f7f0e2;
     -webkit-box-shadow: 0px 5px 21px 0px rgba(254, 119, 101, 0.2);
     -moz-box-shadow: 0px 5px 21px 0px rgba(254, 119, 101, 0.2);
     box-shadow: 0px 5px 21px 0px rgba(254, 119, 101, 0.2);
@@ -799,7 +799,7 @@ p.form-message.error {
     border-radius: 50%; }
     .footer-logo .footer-social li a:hover {
       background-color: #fe7865;
-      color: #fff; }
+      color: #f7f0e2; }
 
 .f-title {
   font-size: 20px;
@@ -842,11 +842,11 @@ p.form-message.error {
     padding-left: 80px; }
 
 .footer-copyright {
-  border-top: 1px solid #ddd; }
+  border-top: 1px solid #e4971d; }
   .footer-copyright a {
-    color: #fe7865; }
+    color: #193420; }
   .footer-copyright .copyright p {
-    color: #333; }
+    color: #222121; }
     @media (max-width: 767px) {
       .footer-copyright .copyright p {
         font-size: 14px; } }
