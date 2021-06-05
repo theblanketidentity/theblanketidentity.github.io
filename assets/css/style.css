@@ -124,6 +124,11 @@ p {
   width: 100%;
   height: 100%; }
 
+a.hyperlink {
+  color: #5b3144; }
+  a.hyperlink:hover {
+   color: #e4971d; }
+
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
