@@ -32,8 +32,13 @@
     1.COMMON css 
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+
+@font-face {
+  font-family: 'Hamburg';
+  src: url(assets/fonts/BN-Hamburg Hand Light.otf') format('opentype') } /*sans serif font for the body*/
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Hamburg", "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222121; /*change all body text to the dark dark blue*/
@@ -66,24 +71,24 @@ a {
   display: inline-block; }
 
 h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Frank Ruhl Libre", serif;
   font-weight: 600;
   color: #222121;
   margin: 0px; }
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Frank Ruhl Libre", serif;
   font-weight: 600;
   color: #222121;
   margin: 0px; }
 h3,
 h4 /*--used for our names--*/ {
-  font-family: "Poppins", sans-serif;
+  font-family: "Frank Ruhl Libre", serif;
   font-weight: 600;
   color: #bf4a22;
   margin: 0px; }
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Frank Ruhl Libre", serif;
   font-weight: 600;
   color: #333;
   margin: 0px; }
