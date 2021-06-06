@@ -171,11 +171,11 @@ a.hyperlink {
     background-color: #193420;
     color: #f7f0e2;
     border-color: #f7f0e2; }
-  .main-btn.main-btn-2 { /*button in the video section*/
+  .main-btn-2 { /*video buttons*/
     background-color: #f7f0e2;
     color: #193420;
     border-color: #193420; }
-    .main-btn.main-btn-2:hover {
+    .main-btn-2:hover {
       background-color: #193420;
       border-color: #193420;
       color: #f7f0e2; }
