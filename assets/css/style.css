@@ -138,6 +138,10 @@ a.hyperlink {
   a.hyperlink:hover {
    color: #5b3144; }
 
+a.main-btn {
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: normal; }
+
 /*===== All Button Style =====*/
 .main-btn { /*button in the slider*/
   display: inline-block;
