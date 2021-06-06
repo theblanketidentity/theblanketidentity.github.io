@@ -70,10 +70,10 @@ span,
 a {
   display: inline-block; }
 
-h1 {
+h1 { /*font for the slider header*/
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 600;
-  color: #222121;
+  color: #f7f0e2;
   margin: 0px; }
 h2 {
   font-family: "Frank Ruhl Libre", serif;
@@ -123,6 +123,9 @@ p {
   color: #222121;
   margin: 0px; }
 
+p.mb-25 {
+  color: #f7f0e2; } /*color of the body text in the slider*/
+
 .bg_cover {
   background-position: center center;
   background-size: cover;
@@ -161,21 +164,21 @@ a.hyperlink {
       font-size: 14px;
       padding: 0 25px;
       line-height: 43px; } }
-  .main-btn i {
+  .main-btn i { /*button in the slider*/
     font-size: 12px;
     margin-left: 5px; }
   .main-btn:hover {
     background-color: #193420;
     color: #f7f0e2;
     border-color: #f7f0e2; }
-  .main-btn.main-btn-2 {
-    background-color: #193420;
-    color: #f7f0e2;
-    border-color: #f7f0e2; }
+  .main-btn.main-btn-2 { /*button in the video section*/
+    background-color: #f7f0e2;
+    color: #193420;
+    border-color: #193420; }
     .main-btn.main-btn-2:hover {
-      background-color: #f7f0e2;
-      border-color: #f7f0e2;
-      color: #193420; }
+      background-color: #193420;
+      border-color: #193420;
+      color: #f7f0e2; }
 
 /*===== All Section Title Style =====*/
 .section-title h5 {
