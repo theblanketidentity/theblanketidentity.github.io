@@ -38,7 +38,7 @@
   src: url(assets/fonts/BN-Hamburg Hand Light.otf') format('opentype') } /*sans serif font for the body*/
 
 body {
-  font-family: "Hamburg", "Poppins", sans-serif;
+  font-family: "Hamburg";
   font-weight: normal;
   font-style: normal;
   color: #222121; /*change all body text to the dark dark blue*/
