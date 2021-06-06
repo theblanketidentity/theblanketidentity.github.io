@@ -142,7 +142,7 @@ a.hyperlink {
 .main-btn { /*button in the slider*/
   display: inline-block;
   font-weight: 400;
-  font-family: "Frank Ruhl Libre", serif;
+  /*font-family: "Frank Ruhl Libre", serif;*/
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
