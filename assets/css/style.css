@@ -38,11 +38,11 @@
   src: url(assets/fonts/BN-Hamburg Hand Light.otf') format('opentype') } /*sans serif font for the body*/
 
 body {
-  font-family: "Hamburg";
+  font-family: "Hamburg", "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222121; /*change all body text to the dark dark blue*/
-  background-color: #fff; } 
+  background-color: #f7f0e2; } 
 	
 * {
   margin: 0;
@@ -143,11 +143,11 @@ a.hyperlink {
   white-space: nowrap;
   vertical-align: middle;
   @inlude user-select(none);
-  border: 1px solid #193420;
+  border: 1px solid #f7f0e2;
   padding: 0 35px;
   font-size: 16px;
   line-height: 48px;
-  color: #f7f0e2;
+  color: #193420;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -155,7 +155,7 @@ a.hyperlink {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-color: #193420; }
+  background-color: #f7f0e2; }
   @media (max-width: 767px) {
     .main-btn {
       font-size: 14px;
@@ -165,17 +165,17 @@ a.hyperlink {
     font-size: 12px;
     margin-left: 5px; }
   .main-btn:hover {
-    background-color: #f7f0e2;
-    color: #193420;
-    border-color: #193420; }
+    background-color: #193420;
+    color: #f7f0e2;
+    border-color: #f7f0e2; }
   .main-btn.main-btn-2 {
-    background-color: #f7f0e2;
-    color: #193420;
-    border-color: #193420; }
+    background-color: #193420;
+    color: #f7f0e2;
+    border-color: #f7f0e2; }
     .main-btn.main-btn-2:hover {
-      background-color: #193420;
-      border-color: #193420;
-      color: #f7f0e2; }
+      background-color: #f7f0e2;
+      border-color: #f7f0e2;
+      color: #193420; }
 
 /*===== All Section Title Style =====*/
 .section-title h5 {
@@ -305,19 +305,19 @@ a.hyperlink {
 ===========================*/
 .header-area {
   padding: 30px 0;
-  background-color: #fff;
+  background-color: #f7f0e2;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff; /*header color*/
+  background-color: #f7f0e2; /*header color*/
   z-index: 9; }
   .header-area.sticky {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff; /*sticky header color*/
+    background-color: #f7f0e2; /*sticky header color*/
     -webkit-box-shadow: 0px 0px 40px 0px rgba(25, 52, 32, 0.5);
     -moz-box-shadow: 0px 0px 40px 0px rgba(25, 52, 32, 0.5);
     box-shadow: 0px 0px 40px 0px rgba(25, 52, 32, 0.5);
@@ -439,13 +439,13 @@ a.hyperlink {
     .single-slider {
       padding: 0 30px; } }
   .single-slider .slider-bg {
-    background-color: #f7f0e2; } /*slider background color*/
+    background-color: #193420; } /*slider background color*/
   .single-slider .slider-product-image img {
     width: 100%; }
   .single-slider .slider-product-image .slider-discount-tag {
     width: 125px;
     height: 125px;
-    background-color: #193420;
+    background-color: #f7f0e2;
     border-radius: 50%;
     text-align: center;
     display: table;
@@ -467,7 +467,7 @@ a.hyperlink {
     .single-slider .slider-product-image .slider-discount-tag p {
       display: table-cell;
       vertical-align: middle;
-      color: #f7f0e2;
+      color: #193420;
       font-size: 18px;
       font-weight: 600;
       line-height: 33px; }
