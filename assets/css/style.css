@@ -134,7 +134,7 @@ p.mb-25 {
   height: 100%; }
 
 a.hyperlink {
-  color: #e4971d; }
+  color: #bf4a22; }
   a.hyperlink:hover {
    color: #5b3144; }
 
@@ -147,7 +147,7 @@ a.hyperlink {
   white-space: nowrap;
   vertical-align: middle;
   @inlude user-select(none);
-  border: 1px solid #bf4a22;
+  border: 1px solid #e4971d;
   padding: 0 35px;
   font-size: 16px;
   line-height: 48px;
@@ -159,7 +159,7 @@ a.hyperlink {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-color: #bf4a22; }
+  background-color: #e4971d; }
   @media (max-width: 767px) {
     .main-btn {
       font-size: 14px;
@@ -170,8 +170,8 @@ a.hyperlink {
     margin-left: 5px; }
   .main-btn:hover {
     background-color: #f7f0e2;
-    color: #bf4a22;
-    border-color: #bf4a22; }
+    color: #e4971d;
+    border-color: #e4971d; }
 
 /*===== All Section Title Style =====*/
 .section-title h5 {
@@ -392,7 +392,7 @@ a.hyperlink {
         -o-transition: all 0.4s ease-out 0s;
         transition: all 0.4s ease-out 0s; }
       .header-area .navbar .navbar-nav .nav-item.active a, .header-area .navbar .navbar-nav .nav-item:hover a {
-        color: #bf4a22; }
+        color: #bf4a22; } /*hovering over the the nav bar list at the top*/
 
 /*===========================
     3.SLIDER css 
@@ -418,13 +418,13 @@ a.hyperlink {
       height: 10px;
       font-size: 0;
       border: 0;
-      background-color: #f9d59e;
+      background-color: #f9d59e; /*unhighlighted dot*/
       border-radius: 50%;
       cursor: pointer; }
   .slider-active .slick-dots li.slick-active button {
     width: 15px;
     height: 15px;
-    background-color: #e4971d; }
+    background-color: #e4971d; } /*main dot on the slider that is highlighted*/
 
 .single-slider {
   position: relative; }
@@ -497,12 +497,12 @@ a.hyperlink {
           font-size: 52px; } }
       .single-slider .slider-product-content .slider-title span {
         position: relative; }
-        .single-slider .slider-product-content .slider-title span::before {
+        .single-slider .slider-product-content .slider-title span::before { 
           position: absolute;
           content: '';
           width: 100%;
           height: 10px;
-          background-color: rgba(191, 74, 34, 0.75);
+          background-color: rgba(228, 151, 29, 0.75); /*thicc underline*/
           left: 0;
           bottom: 17px;
           z-index: auto; }
@@ -541,8 +541,8 @@ a.hyperlink {
       margin: 0 5px; }
       .slider-social .social li a {
         font-size: 18px;
-        color: #e4971d;
-        border: 1px solid #e4971d;
+        color: #bf4a22; /*social media icons*/
+        border: 1px solid #bf4a22;
         width: 30px;
         line-height: 32px;
         height: 30px;
@@ -560,7 +560,7 @@ a.hyperlink {
       content: '';
       width: 70%;
       height: 1px;
-      background-color: #bf4a22;
+      background-color: #e4971d; /*thin line*/
       top: 50%;
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
@@ -618,7 +618,7 @@ a.hyperlink {
     content: '';
     width: 400px;
     height: 230px;
-    background-color: #f7f0e2;
+    background-color: #193420; /*i think this is the little box peeking out*/
     bottom: 0;
     right: -50px;
     bottom: -40px;
@@ -662,7 +662,7 @@ a.hyperlink {
   .showcase-active .slick-arrow i {
     width: 70px;
     line-height: 50px;
-    background-color: #bf4a22; /*button color for going forward and back on our videos*/
+    background-color: #e4971d; /*button color for going forward and back on our videos*/
     color: #f7f0e2;
     font-size: 20px;
     text-align: center;
@@ -849,9 +849,11 @@ p.form-message.error {
     padding-left: 80px; }
 
 .footer-copyright {
-  border-top: 1px solid #bf4a22; }
+  border-top: 1px solid #e4971d; } /*skinny line at top of footer*/
   .footer-copyright a {
-    color: #193420; }
+    color: #bf4a22; }
+  .footer-copyright a:hover {
+    color: #5b3144: }
   .footer-copyright .copyright p {
     color: #222121; }
     @media (max-width: 767px) {
