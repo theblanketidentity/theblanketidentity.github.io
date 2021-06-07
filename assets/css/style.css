@@ -571,9 +571,10 @@ a.hyperlink {
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
         .slider-social .social::before {
           width: 63%; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @media only screen and (min-width: 768px) and (max-width: 991px) { /*p sure this is medium screen*/
         .slider-social .social::before {
-          width: 42%; } }
+          width: 42%;
+	  left: 60px; } }
       @media (max-width: 767px) {
         .slider-social .social::before {
           width: 35%;
