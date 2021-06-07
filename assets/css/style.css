@@ -573,7 +573,7 @@ a.hyperlink {
           width: 63%; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .slider-social .social::before {
-          width: 48%; } }
+          width: 42%; } }
       @media (max-width: 767px) {
         .slider-social .social::before {
           width: 35%;
