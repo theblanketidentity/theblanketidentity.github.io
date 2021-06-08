@@ -558,7 +558,7 @@ a.hyperlink {
     .slider-social .social::before {
       position: absolute;
       content: '';
-      width: 60%;
+      width: 70%;
       height: 1px;
       background-color: #bf4a22; /*thin line*/
       top: 50%;
