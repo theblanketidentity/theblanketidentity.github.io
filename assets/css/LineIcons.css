@@ -1344,6 +1344,9 @@
 .lni-medium:before {
   content: "\eaa4";
 }
+.lni-tiktok:before {		/*help i don't know the code for this one*/
+	content: "";  
+}
 .lni-instagram-original:before {
   content: "\ea8c";
 }
